@@ -42,13 +42,13 @@ class TestValidation(unittest.TestCase):
 
     def test_invalid_birth_year_range(self):
         """Testet Fehler bei Jahren außerhalb des Bereichs."""
-        # Zu alt
+        # Fall: Zu alt
         data_old = {"vorname": "A", "nachname": "B", "geburtsjahr": 1899, "wohnort": "C"}
         valid, errors = validiere_person(data_old)
         self.assertFalse(valid)
         self.assertTrue(any("unplausibel" in e for e in errors))
 
-        # Zu jung (Zukunft)
+        # Zukunft (2026
         data_future = {"vorname": "A", "nachname": "B", "geburtsjahr": 2026, "wohnort": "C"}
         valid, errors = validiere_person(data_future)
         self.assertFalse(valid)
