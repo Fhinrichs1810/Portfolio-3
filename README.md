@@ -1,6 +1,6 @@
-# Bürgerregister Light – Starterpaket
+# Bürgerregister Light - Portfolio 3
 
-Dieses Repository bildet die Grundlage für die Teilprüfung 3 (Qualitätssicherung mit Tests, Metriken und CI
+Dieses Repository bildet die Grundlage für die Teilprüfung 3 (Qualitätssicherung mit Tests, Metriken und CI)
 
 ## Ziele
 • eine bestehende Software strukturiert zu analysieren
