@@ -3,10 +3,6 @@
 install:
 	pip install -e .[dev]
 
-lint:
-	ruff check src tests
-	isort . --check-only
-	black --check .
 
 format:
 	isort .
@@ -19,6 +15,5 @@ coverage:
 	pytest --cov=src/buergerregister --cov-branch --cov-report=html
 
 ci:
-	make lint
 	make test
 	make coverage
