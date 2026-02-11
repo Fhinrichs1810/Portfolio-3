@@ -1,11 +1,13 @@
 # Bürgerregister Light – Starterpaket
 
-Dieses Repository bildet das Starterpaket für die Teilprüfung 1 (Präsentation: Softwareentwurf & Prototyp).
+Dieses Repository bildet die Grundlage für die Teilprüfung 3 (Qualitätssicherung mit Tests, Metriken und CI
 
 ## Ziele
-- UML modellieren (Use-Case, Klassen, Sequenz)
-- Python-Grundstruktur implementieren
-- Live-Demo vorbereiten
+• eine bestehende Software strukturiert zu analysieren
+• eine sinnvolle Teststrategie abzuleiten und umzusetzen
+• Qualität mithilfe geeigneter Metriken messbar zu machen
+• Automatisierung durch Continuous Integration einzusetzen
+• Ergebnisse praxisnah, nachvollziehbar und reflektiert schriftlich darzustellen.
 
 ## Installation
 ```bash
@@ -30,6 +32,3 @@ reg.add(Person("Anna", "Schmidt", 1990, "Essen"))
 print(reg.list())
 ```
 
-## Dokumentation
-- UML-Diagramme als Platzhalter unter `docs/uml/`
-- Cheat-Sheets unter `docs/cheatsheets/`
